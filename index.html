@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+
+  
+<!--Link game.js and player.js-->
+<script>
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCH_u0hGrKmvDc1tZMYP8XMh2itCRBAOGI",
+  authDomain: "hot-balloon-dd7aa.firebaseapp.com",
+  databaseURL: "https://hot-balloon-dd7aa-default-rtdb.firebaseio.com",
+  projectId: "hot-balloon-dd7aa",
+  storageBucket: "hot-balloon-dd7aa.appspot.com",
+  messagingSenderId: "364967529804",
+  appId: "1:364967529804:web:890b7c7c5e6ed64a24d3e9"
+}; 
+firebase.initializeApp(firebaseConfig);
+ 
+</script>
+   
+<!--Add database config here below-->
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+ 
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+
+  <script src="sketch.js"></script>
+</body></html>
